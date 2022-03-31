@@ -13,9 +13,7 @@ msg['To'] = 'receiver_email'   # personally dependant
 
 """sending pdfs"""
 msg.set_content("It's me,\nmohamed alaa a computer engineering student who just wanna be a kind and a good person. "
-                "\nwhat a bout you? \n\n\n "
-                "it's the last one hoda, Thanks alot for your help!\nalways hope you find the mail well (sorry), "
-                "Our chat will discuss if us are well or not, but now is the mail check time.")
+                "\nwhat a bout you? \n\n\n")
 
 with open('hash_code.PDF', 'rb') as file:
     file_data = file.read()
