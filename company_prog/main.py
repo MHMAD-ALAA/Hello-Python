@@ -1,7 +1,7 @@
-from car import Car
-from office import Office
-from person import Person
-from employee import Employee
+from company_prog.car import Car
+from company_prog.office import Office
+from company_prog.person import Person
+from company_prog.employee import Employee
 from datetime import datetime
 empDict = dict()
 

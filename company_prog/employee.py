@@ -1,8 +1,8 @@
 from datetime import datetime
-from car import Car
-from person import Person
-from office import Office
-from main import empDict
+from company_prog.car import Car
+from company_prog.person import Person
+from company_prog.office import Office
+from company_prog.main import empDict
 
 
 class Employee(Person, Office, Car):

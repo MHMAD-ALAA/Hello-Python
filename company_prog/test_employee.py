@@ -1,6 +1,6 @@
 import unittest
-from employee import Employee
-from car import Car
+from company_prog.employee import Employee
+from company_prog.car import Car
 
 
 class TestEmployee(unittest.TestCase, Employee, Car):

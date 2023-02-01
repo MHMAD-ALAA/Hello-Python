@@ -1,5 +1,5 @@
-from employee import Employee
-from main import empDict
+from company_prog.employee import Employee
+from company_prog.main import empDict
 # from datetime import datetime
 
 

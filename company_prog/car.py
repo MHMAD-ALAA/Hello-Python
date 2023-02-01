@@ -1,4 +1,4 @@
-from employee import Employee
+from company_prog.employee import Employee
 
 
 class Car(object):
